@@ -8,6 +8,10 @@ server.use(express.static(path.join(__dirname, 'public')))
 server.use(express.static('public'))
 server.use(express.urlencoded({extended: false}))
 
+server.get('/', function (req, res) {
+  res.sendFile('index.html', {root: path.join(__dirname, 'public')})
+})
+
 server.post('/display', (req, res) => {
   const firstName = req.body.firstName
   const lastName = req.body.lastName
