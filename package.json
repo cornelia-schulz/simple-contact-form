@@ -1,0 +1,28 @@
+{
+  "name": "simple-contact-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node index"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cornelia-schulz/simple-contact-form.git"
+  },
+  "keywords": [],
+  "author": "Cornelia Schulz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cornelia-schulz/simple-contact-form/issues"
+  },
+  "homepage": "https://github.com/cornelia-schulz/simple-contact-form#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
