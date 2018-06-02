@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="top-nav">
+      <a class="active" href="#home">Home</a>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <form action="./displayContact" method="POST">
+    <label for="firstName">First name: </label>
+    <input name="firstName" type="text"><br />
+    <label for="lastName">Last name: </label>
+    <input name="lastName" type="text"><br />
+    <label for="email">Email: </label>
+    <input type="email" name="email" required><br />
+    <button type="submit">Send</button>
+  </form>
+</body>
+
+</html>
