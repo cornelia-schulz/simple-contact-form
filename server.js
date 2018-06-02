@@ -9,7 +9,6 @@ server.use(express.static('public'))
 server.use(express.urlencoded({extended: false}))
 
 server.post('/display', (req, res) => {
-  console.log(res)
   const firstName = req.body.firstName
   const lastName = req.body.lastName
   const email = req.body.email
@@ -17,8 +16,7 @@ server.post('/display', (req, res) => {
 })
 
 server.post('/endpoint', function (req, res) {
-  const obj = {}
-  console.log('body: ' + JSON.stringify(req.body))
+  // console.log('body: ' + JSON.stringify(req.body))
   res.send(req.body)
 })
 

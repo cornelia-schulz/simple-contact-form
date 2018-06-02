@@ -30,7 +30,8 @@
 }
 
 label {
-  width: 100px;
+  display: inline-block;
+  width: 80px;
   line-height: 3em;
   vertical-align: bottom;
 }

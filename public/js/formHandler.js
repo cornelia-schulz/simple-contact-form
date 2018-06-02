@@ -16,7 +16,6 @@ $(document).ready(function () {
       url: 'http://localhost:3000/endpoint',
       success: function (data) {
         console.log('success')
-        console.log(JSON.stringify(data))
         $('#result').append(JSON.stringify(data))
         $('#result').append('<br /')
         $('#firstName').val('')
