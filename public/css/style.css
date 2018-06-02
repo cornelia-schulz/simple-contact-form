@@ -41,7 +41,11 @@ input {
   vertical-align: top;
 }
 
-#contact-form-submit {
+#contact-form-submit, #submit {
   width: 80px;
   height: 2.5em;
+}
+
+#result {
+  margin-top: 20px;
 }
